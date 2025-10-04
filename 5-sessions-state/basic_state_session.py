@@ -44,7 +44,7 @@ async def main():
         )
 
     print("=== Running Agent ===")
-    for event in runner.run(
+    async for event in runner.run_async(
             user_id=USER_ID,
             session_id=SESSION_ID,
             new_message=new_message
