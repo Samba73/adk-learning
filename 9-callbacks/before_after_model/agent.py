@@ -28,7 +28,7 @@ def simple_before_model_callback(llm_request: LlmRequest, callback_context: Call
     modified_instruction = modified_text
     llm_request.config.system_instruction = modified_instruction
     print(f"Modified system instruction: {modified_instruction}")
-        # Example: Block requests containing the word "block"
+        # Example: Block requests containing the word "cut"
         
     if "cut" in last_user_message.lower():
         print(f"[Callback] Blocking model call due to 'cut' in user message.")
