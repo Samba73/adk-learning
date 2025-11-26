@@ -1,0 +1,4 @@
+The Designer Agent acts as a bridge between high-level requirements and actual code. 
+It accepts functional specifications and transforms them into granular UI/UX descriptions, 
+defining layout strategies (Flex/Grid), spacing (padding/margins), typography hierarchies, and interaction states
+ in a format optimized for a coding agent.

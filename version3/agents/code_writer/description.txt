@@ -1,0 +1,3 @@
+The Code Writer Agent is the executor of the pipeline. 
+It synthesizes functional requirements and visual design specifications into a tangible result. 
+It operates as a "Single-File Architect," merging structure, style, and logic into a standalone HTML artifact and saving it directly to the disk.
